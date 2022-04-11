@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Group B&#39;s Documentation</title>
+	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	
+	<link href="https://example.com/feed/feed.xml" rel="self"/>
+	<link href="https://example.com/"/>
+	<updated>2022-03-28T20:36:17Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+	
+	<entry>
+		<title>This is my third post.</title>
+		<link href="https://example.com/posts/thirdpost/"/>
+		<updated>2022-03-28T20:36:17Z</updated>
+		<id>https://example.com/posts/thirdpost/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>Week 11</title>
+		<link href="https://example.com/posts/secondpost/"/>
+		<updated>2022-03-28T20:36:17Z</updated>
+		<id>https://example.com/posts/secondpost/</id>
+		<content type="html">&lt;h2 id=&quot;week-11-check-in&quot; tabindex=&quot;-1&quot;&gt;Week 11 Check in &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#week-11-check-in&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;what-we-did-this-week&quot; tabindex=&quot;-1&quot;&gt;What we did this week &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#what-we-did-this-week&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;For the beckend of the project we started setting up the Planetscale database. We have it setup with the vercel, we&lt;br /&gt;
+just need to connect it to the project code&lt;/p&gt;
+&lt;h4 id=&quot;front-end&quot; tabindex=&quot;-1&quot;&gt;Front end &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#front-end&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;So far we had just cleaned up the template for the demo and are still working on the complete layout of the front end.&lt;/p&gt;
+&lt;h3 id=&quot;questions&quot; tabindex=&quot;-1&quot;&gt;Questions &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/secondpost/#questions&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>This is my fourth post.</title>
+		<link href="https://example.com/posts/fourthpost/"/>
+		<updated>2022-03-28T20:36:17Z</updated>
+		<id>https://example.com/posts/fourthpost/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>This is for check-in</title>
+		<link href="https://example.com/posts/firstpost/"/>
+		<updated>2022-03-28T20:36:17Z</updated>
+		<id>https://example.com/posts/firstpost/</id>
+		<content type="html">&lt;h2 id=&quot;week-10-group-b-term-glossary&quot; tabindex=&quot;-1&quot;&gt;Week 10 Group B  Term-Glossary &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#week-10-group-b-term-glossary&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;links-for-term-glossary-repo:&quot; tabindex=&quot;-1&quot;&gt;Links for term-glossary repo: &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#links-for-term-glossary-repo:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/briangan123/term-glossary&quot;&gt;https://github.com/briangan123/term-glossary&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://term-glossary.vercel.app/&quot;&gt;https://term-glossary.vercel.app/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;link-to-github-documentation-repo:&quot; tabindex=&quot;-1&quot;&gt;Link to github documentation repo: &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#link-to-github-documentation-repo:&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/briangan123/Documentation&quot;&gt;https://github.com/briangan123/Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;notes-for-requirements&quot; tabindex=&quot;-1&quot;&gt;NOTES for requirements &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#notes-for-requirements&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&quot;requirements-for-the-back-end&quot; tabindex=&quot;-1&quot;&gt;Requirements for the Back end &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#requirements-for-the-back-end&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Build a microservice that stores and processes vocabulary terms&lt;/p&gt;
+&lt;p&gt;POST / READ This service can be passed a text / HTML string of text, identify words that match the glossary&lt;/p&gt;
+&lt;p&gt;POST / CREATE needs to be able to take word, textual definition, and any links desired&lt;/p&gt;
+&lt;p&gt;GET / READ needs to accept a parameter for returning 1 term / definition or ALL&lt;/p&gt;
+&lt;p&gt;Pervasive data store in a &lt;a href=&quot;http://jsonbin.io/&quot;&gt;jsonbin.io&lt;/a&gt; or actual data store of your choice&lt;/p&gt;
+&lt;h4 id=&quot;requriements-for-the-front-end&quot; tabindex=&quot;-1&quot;&gt;Requriements for the Front end &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#requriements-for-the-front-end&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Create a demo page / space that has the ability to add new words to the glossary via a small form POST&lt;br /&gt;
+The ability to hit a button and present all words in the glossary with their definitions via a dl tag (&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl&lt;/a&gt;)&lt;br /&gt;
+The ability to take a block of HTML on the page and send off to the microservice for processing.&lt;br /&gt;
+The front end needs to then get the words that match, find them in the text of the HTML, and then automatically apply a vocab-term tag (&lt;a href=&quot;https://www.npmjs.com/package/@lrnwebcomponents/vocab-term&quot;&gt;https://www.npmjs.com/package/@lrnwebcomponents/vocab-term&lt;/a&gt;) which when clicking the word, would show the definition positioned near it.&lt;br /&gt;
+Demo should include an area where the user can type text and hit &amp;quot;process&amp;quot; and it augments the typed text, presenting matches for the vocab word in context&lt;/p&gt;
+&lt;h2 id=&quot;brainstorm&quot; tabindex=&quot;-1&quot;&gt;Brainstorm &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#brainstorm&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&quot;frontend-visual-v1&quot; tabindex=&quot;-1&quot;&gt;Frontend Visual V1 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#frontend-visual-v1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rmlbreevdgks5n01betc.jpg&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;backend-visual-v1&quot; tabindex=&quot;-1&quot;&gt;Backend Visual V1 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#backend-visual-v1&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8o1cld4owcgyshmpqxwk.JPG&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;questions&quot; tabindex=&quot;-1&quot;&gt;Questions &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/posts/firstpost/#questions&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Do we want the user to delete or edit inputs for words or definitions?&lt;br /&gt;
+Who or what acts as quality control to prevent any ill intent inputs into the database?&lt;br /&gt;
+Do we want to add multiple definitions for words?&lt;br /&gt;
+Are we supposed to find a use a current dictionary API? or are we supposed to figure out how to create one?&lt;br /&gt;
+How do we connect our code to reference the &lt;a href=&quot;http://jsonbin.io/&quot;&gt;jsonbin.io&lt;/a&gt;? Are we supposed to create a bin or a collection?&lt;/p&gt;
+</content>
+	</entry>
+</feed>

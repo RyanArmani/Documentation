@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is for check-in</title>
+    <meta name="description" content="This is for the first check-in">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/prism-diff.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Group B&#39;s Documentation">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Group B&#39;s Documentation">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Group B&#39;s Documentation</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+
+      <h1>This is for check-in</h1>
+
+<time datetime="2022-03-28">28 Mar 2022</time><a href="/tags/first-post/" class="post-tag">First post</a>
+
+<h2 id="week-10-group-b-term-glossary" tabindex="-1">Week 10 Group B  Term-Glossary <a class="direct-link" href="#week-10-group-b-term-glossary" aria-hidden="true">#</a></h2>
+<h2 id="links-for-term-glossary-repo:" tabindex="-1">Links for term-glossary repo: <a class="direct-link" href="#links-for-term-glossary-repo:" aria-hidden="true">#</a></h2>
+<p><a href="https://github.com/briangan123/term-glossary">https://github.com/briangan123/term-glossary</a><br>
+<a href="https://term-glossary.vercel.app/">https://term-glossary.vercel.app/</a></p>
+<h2 id="link-to-github-documentation-repo:" tabindex="-1">Link to github documentation repo: <a class="direct-link" href="#link-to-github-documentation-repo:" aria-hidden="true">#</a></h2>
+<p><a href="https://github.com/briangan123/Documentation">https://github.com/briangan123/Documentation</a></p>
+<h2 id="notes-for-requirements" tabindex="-1">NOTES for requirements <a class="direct-link" href="#notes-for-requirements" aria-hidden="true">#</a></h2>
+<h4 id="requirements-for-the-back-end" tabindex="-1">Requirements for the Back end <a class="direct-link" href="#requirements-for-the-back-end" aria-hidden="true">#</a></h4>
+<p>Build a microservice that stores and processes vocabulary terms</p>
+<p>POST / READ This service can be passed a text / HTML string of text, identify words that match the glossary</p>
+<p>POST / CREATE needs to be able to take word, textual definition, and any links desired</p>
+<p>GET / READ needs to accept a parameter for returning 1 term / definition or ALL</p>
+<p>Pervasive data store in a <a href="http://jsonbin.io">jsonbin.io</a> or actual data store of your choice</p>
+<h4 id="requriements-for-the-front-end" tabindex="-1">Requriements for the Front end <a class="direct-link" href="#requriements-for-the-front-end" aria-hidden="true">#</a></h4>
+<p>Create a demo page / space that has the ability to add new words to the glossary via a small form POST<br>
+The ability to hit a button and present all words in the glossary with their definitions via a dl tag (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl</a>)<br>
+The ability to take a block of HTML on the page and send off to the microservice for processing.<br>
+The front end needs to then get the words that match, find them in the text of the HTML, and then automatically apply a vocab-term tag (<a href="https://www.npmjs.com/package/@lrnwebcomponents/vocab-term">https://www.npmjs.com/package/@lrnwebcomponents/vocab-term</a>) which when clicking the word, would show the definition positioned near it.<br>
+Demo should include an area where the user can type text and hit &quot;process&quot; and it augments the typed text, presenting matches for the vocab word in context</p>
+<h2 id="brainstorm" tabindex="-1">Brainstorm <a class="direct-link" href="#brainstorm" aria-hidden="true">#</a></h2>
+<h4 id="frontend-visual-v1" tabindex="-1">Frontend Visual V1 <a class="direct-link" href="#frontend-visual-v1" aria-hidden="true">#</a></h4>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rmlbreevdgks5n01betc.jpg" alt="Image description"></p>
+<h4 id="backend-visual-v1" tabindex="-1">Backend Visual V1 <a class="direct-link" href="#backend-visual-v1" aria-hidden="true">#</a></h4>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8o1cld4owcgyshmpqxwk.JPG" alt="Image description"></p>
+<h2 id="questions" tabindex="-1">Questions <a class="direct-link" href="#questions" aria-hidden="true">#</a></h2>
+<p>Do we want the user to delete or edit inputs for words or definitions?<br>
+Who or what acts as quality control to prevent any ill intent inputs into the database?<br>
+Do we want to add multiple definitions for words?<br>
+Are we supposed to find a use a current dictionary API? or are we supposed to figure out how to create one?<br>
+How do we connect our code to reference the <a href="http://jsonbin.io">jsonbin.io</a>? Are we supposed to create a bin or a collection?</p>
+
+<hr>
+<ul><li>Next: <a href="/posts/fourthpost/">This is my fourth post.</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/firstpost/ -->
+  </body>
+</html>
